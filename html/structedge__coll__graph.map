@@ -1,0 +1,6 @@
+<map id="edge" name="edge">
+<area shape="rect" id="node1" title=" " alt="" coords="5,109,60,136"/>
+<area shape="rect" id="node2" href="$structblock.html" title=" " alt="" coords="115,229,172,256"/>
+<area shape="rect" id="node3" href="$structstmt.html" title=" " alt="" coords="188,5,240,32"/>
+<area shape="rect" id="node4" href="$structslist.html" title=" " alt="" coords="207,109,256,136"/>
+</map>

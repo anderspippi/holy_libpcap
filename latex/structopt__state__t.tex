@@ -1,0 +1,82 @@
+\hypertarget{structopt__state__t}{}\doxysection{opt\+\_\+state\+\_\+t Struct Reference}
+\label{structopt__state__t}\index{opt\_state\_t@{opt\_state\_t}}
+
+
+Collaboration diagram for opt\+\_\+state\+\_\+t\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{structopt__state__t__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a69ad9ee1e59b01089e51cddf8ac603d8}\label{structopt__state__t_a69ad9ee1e59b01089e51cddf8ac603d8}} 
+jmp\+\_\+buf {\bfseries top\+\_\+ctx}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a41b74fcd14707c6d3d451080e3d1d292}\label{structopt__state__t_a41b74fcd14707c6d3d451080e3d1d292}} 
+char $\ast$ {\bfseries errbuf}
+\item 
+\mbox{\Hypertarget{structopt__state__t_af582bbf36875611bc73ec0c9b2967378}\label{structopt__state__t_af582bbf36875611bc73ec0c9b2967378}} 
+int {\bfseries done}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aabd306c5c22467ede36ea612d53a4eef}\label{structopt__state__t_aabd306c5c22467ede36ea612d53a4eef}} 
+int {\bfseries non\+\_\+branch\+\_\+movement\+\_\+performed}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a6656aec03711dc087dd91d522ea7f8ae}\label{structopt__state__t_a6656aec03711dc087dd91d522ea7f8ae}} 
+u\+\_\+int {\bfseries n\+\_\+blocks}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a22f6b167a35f916aabdf20f713c569a0}\label{structopt__state__t_a22f6b167a35f916aabdf20f713c569a0}} 
+struct \mbox{\hyperlink{structblock}{block}} $\ast$$\ast$ {\bfseries blocks}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a831c8bd1e24d534303385f19ab74903b}\label{structopt__state__t_a831c8bd1e24d534303385f19ab74903b}} 
+u\+\_\+int {\bfseries n\+\_\+edges}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aedf767e46c04bb090804fa975fef8ec2}\label{structopt__state__t_aedf767e46c04bb090804fa975fef8ec2}} 
+struct \mbox{\hyperlink{structedge}{edge}} $\ast$$\ast$ {\bfseries edges}
+\item 
+\mbox{\Hypertarget{structopt__state__t_ad187f3687c4f77018379a5b542297c33}\label{structopt__state__t_ad187f3687c4f77018379a5b542297c33}} 
+u\+\_\+int {\bfseries nodewords}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a6299b12ae9101b0de2ba480a4911c16d}\label{structopt__state__t_a6299b12ae9101b0de2ba480a4911c16d}} 
+u\+\_\+int {\bfseries edgewords}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aeb9e89721e893d276fba5884d7768907}\label{structopt__state__t_aeb9e89721e893d276fba5884d7768907}} 
+struct \mbox{\hyperlink{structblock}{block}} $\ast$$\ast$ {\bfseries levels}
+\item 
+\mbox{\Hypertarget{structopt__state__t_ac54b8efdcfc17ddac27ff1dd48c62c15}\label{structopt__state__t_ac54b8efdcfc17ddac27ff1dd48c62c15}} 
+bpf\+\_\+u\+\_\+int32 $\ast$ {\bfseries space}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aabd48cf630824be4f06d1033e2ed5417}\label{structopt__state__t_aabd48cf630824be4f06d1033e2ed5417}} 
+uset {\bfseries all\+\_\+dom\+\_\+sets}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a99d53118b36825fe490c79b08ccf0d4d}\label{structopt__state__t_a99d53118b36825fe490c79b08ccf0d4d}} 
+uset {\bfseries all\+\_\+closure\+\_\+sets}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a09f1737b6dfd1824bd702df9b7e9e459}\label{structopt__state__t_a09f1737b6dfd1824bd702df9b7e9e459}} 
+uset {\bfseries all\+\_\+edge\+\_\+sets}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a692a2bf4a2eb1e15c68b4de57f795fe7}\label{structopt__state__t_a692a2bf4a2eb1e15c68b4de57f795fe7}} 
+struct \mbox{\hyperlink{structvalnode}{valnode}} $\ast$ {\bfseries hashtbl} \mbox{[}MODULUS\mbox{]}
+\item 
+\mbox{\Hypertarget{structopt__state__t_ab005e8e43f114e95cd173d038e817735}\label{structopt__state__t_ab005e8e43f114e95cd173d038e817735}} 
+bpf\+\_\+u\+\_\+int32 {\bfseries curval}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a191fe2c0117ff6b5664b862f9bd63026}\label{structopt__state__t_a191fe2c0117ff6b5664b862f9bd63026}} 
+bpf\+\_\+u\+\_\+int32 {\bfseries maxval}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aeef97ff3656606dd56253445d33a5850}\label{structopt__state__t_aeef97ff3656606dd56253445d33a5850}} 
+struct \mbox{\hyperlink{structvmapinfo}{vmapinfo}} $\ast$ {\bfseries vmap}
+\item 
+\mbox{\Hypertarget{structopt__state__t_a1782b1803f5c8339fab0af40ffa252c8}\label{structopt__state__t_a1782b1803f5c8339fab0af40ffa252c8}} 
+struct \mbox{\hyperlink{structvalnode}{valnode}} $\ast$ {\bfseries vnode\+\_\+base}
+\item 
+\mbox{\Hypertarget{structopt__state__t_aadb0c075bcbbacdbd5d7745ab37f33cb}\label{structopt__state__t_aadb0c075bcbbacdbd5d7745ab37f33cb}} 
+struct \mbox{\hyperlink{structvalnode}{valnode}} $\ast$ {\bfseries next\+\_\+vnode}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+optimize.\+c\end{DoxyCompactItemize}

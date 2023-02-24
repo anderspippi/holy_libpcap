@@ -1,0 +1,7 @@
+<map id="arth" name="arth">
+<area shape="rect" id="node1" title=" " alt="" coords="161,320,209,347"/>
+<area shape="rect" id="node2" href="$structblock.html" title=" " alt="" coords="36,200,94,227"/>
+<area shape="rect" id="node5" href="$structedge.html" title=" " alt="" coords="15,320,70,347"/>
+<area shape="rect" id="node3" href="$structstmt.html" title=" " alt="" coords="83,5,135,32"/>
+<area shape="rect" id="node4" href="$structslist.html" title=" " alt="" coords="112,109,162,136"/>
+</map>

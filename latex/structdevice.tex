@@ -1,0 +1,85 @@
+\hypertarget{structdevice}{}\doxysection{device Struct Reference}
+\label{structdevice}\index{device@{device}}
+
+
+Collaboration diagram for device\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=172pt]{structdevice__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structdevice_a1e74e8d3b0b1a981c67e1d0284ccac3d}\label{structdevice_a1e74e8d3b0b1a981c67e1d0284ccac3d}} 
+const char $\ast$ {\bfseries name}
+\item 
+\mbox{\Hypertarget{structdevice_a70f6b43843745a112d0688f315ebb6ad}\label{structdevice_a70f6b43843745a112d0688f315ebb6ad}} 
+const char $\ast$ {\bfseries long\+\_\+name}
+\item 
+\mbox{\Hypertarget{structdevice_aec8fbce40c03f5a6d95987948e2437e4}\label{structdevice_aec8fbce40c03f5a6d95987948e2437e4}} 
+DWORD {\bfseries base\+\_\+addr}
+\item 
+\mbox{\Hypertarget{structdevice_a121c1c21ab1e3251d769da7f04daa431}\label{structdevice_a121c1c21ab1e3251d769da7f04daa431}} 
+int {\bfseries irq}
+\item 
+\mbox{\Hypertarget{structdevice_aa071fa4d8a3b7cc6569bcba3754ffe47}\label{structdevice_aa071fa4d8a3b7cc6569bcba3754ffe47}} 
+int {\bfseries dma}
+\item 
+\mbox{\Hypertarget{structdevice_a53e37e8745b76b9ff32604364f336efb}\label{structdevice_a53e37e8745b76b9ff32604364f336efb}} 
+DWORD {\bfseries mem\+\_\+start}
+\item 
+\mbox{\Hypertarget{structdevice_a4bf35b739a16f05036f1cd8db820d6b7}\label{structdevice_a4bf35b739a16f05036f1cd8db820d6b7}} 
+DWORD {\bfseries mem\+\_\+end}
+\item 
+\mbox{\Hypertarget{structdevice_a60c96c9c538ea12e1b5f356ed5b55f58}\label{structdevice_a60c96c9c538ea12e1b5f356ed5b55f58}} 
+DWORD {\bfseries rmem\+\_\+start}
+\item 
+\mbox{\Hypertarget{structdevice_a105c246c437a233d05192fa268f7e037}\label{structdevice_a105c246c437a233d05192fa268f7e037}} 
+DWORD {\bfseries rmem\+\_\+end}
+\item 
+\mbox{\Hypertarget{structdevice_adadf908428f53f867d5fd7af1f0a4678}\label{structdevice_adadf908428f53f867d5fd7af1f0a4678}} 
+struct \mbox{\hyperlink{structdevice}{device}} $\ast$ {\bfseries next}
+\item 
+\mbox{\Hypertarget{structdevice_ad426d973fb326b30d410c12f3ec22772}\label{structdevice_ad426d973fb326b30d410c12f3ec22772}} 
+int($\ast$ {\bfseries probe} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev)
+\item 
+\mbox{\Hypertarget{structdevice_aaedb03340a266a2d8af4931a3afc3325}\label{structdevice_aaedb03340a266a2d8af4931a3afc3325}} 
+int($\ast$ {\bfseries open} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev)
+\item 
+\mbox{\Hypertarget{structdevice_a032a3ea14ea5948f9256848f3a156c65}\label{structdevice_a032a3ea14ea5948f9256848f3a156c65}} 
+void($\ast$ {\bfseries close} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev)
+\item 
+\mbox{\Hypertarget{structdevice_ab9dd0290d60a8ff7884255602994d58c}\label{structdevice_ab9dd0290d60a8ff7884255602994d58c}} 
+int($\ast$ {\bfseries xmit} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev, const void $\ast$buf, int len)
+\item 
+\mbox{\Hypertarget{structdevice_a39ea39ff28bc27c6b170bc653a4e83e2}\label{structdevice_a39ea39ff28bc27c6b170bc653a4e83e2}} 
+void $\ast$($\ast$ {\bfseries get\+\_\+stats} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev)
+\item 
+\mbox{\Hypertarget{structdevice_a1ad37ba3a8d2785d252736e5a31caf60}\label{structdevice_a1ad37ba3a8d2785d252736e5a31caf60}} 
+void($\ast$ {\bfseries set\+\_\+multicast\+\_\+list} )(struct \mbox{\hyperlink{structdevice}{device}} $\ast$dev)
+\item 
+\mbox{\Hypertarget{structdevice_a1af93f286b76782dabfe585ca7e64e0d}\label{structdevice_a1af93f286b76782dabfe585ca7e64e0d}} 
+int($\ast$ {\bfseries copy\+\_\+rx\+\_\+buf} )(BYTE $\ast$buf, int max)
+\item 
+\mbox{\Hypertarget{structdevice_a6b235cfd30afd0843fad40d3940329c2}\label{structdevice_a6b235cfd30afd0843fad40d3940329c2}} 
+BYTE $\ast$($\ast$ {\bfseries get\+\_\+rx\+\_\+buf} )(int len)
+\item 
+\mbox{\Hypertarget{structdevice_a35d4ab9dfcb06eaf198400993ee96478}\label{structdevice_a35d4ab9dfcb06eaf198400993ee96478}} 
+int($\ast$ {\bfseries peek\+\_\+rx\+\_\+buf} )(BYTE $\ast$$\ast$buf)
+\item 
+\mbox{\Hypertarget{structdevice_a73244f92983702e8065a1e4c72bd5fcd}\label{structdevice_a73244f92983702e8065a1e4c72bd5fcd}} 
+int($\ast$ {\bfseries release\+\_\+rx\+\_\+buf} )(BYTE $\ast$buf)
+\item 
+\mbox{\Hypertarget{structdevice_a2e23f9488a62b514e73d2720f1b6ab20}\label{structdevice_a2e23f9488a62b514e73d2720f1b6ab20}} 
+WORD {\bfseries flags}
+\item 
+\mbox{\Hypertarget{structdevice_a40b3a7f45f84d57f35677490ffe9a7b9}\label{structdevice_a40b3a7f45f84d57f35677490ffe9a7b9}} 
+void $\ast$ {\bfseries priv}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pcap-\/dos.\+h\end{DoxyCompactItemize}

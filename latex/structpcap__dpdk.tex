@@ -1,0 +1,73 @@
+\hypertarget{structpcap__dpdk}{}\doxysection{pcap\+\_\+dpdk Struct Reference}
+\label{structpcap__dpdk}\index{pcap\_dpdk@{pcap\_dpdk}}
+
+
+Collaboration diagram for pcap\+\_\+dpdk\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{structpcap__dpdk__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a9634a897cf234f4255c27b62ae2ba673}\label{structpcap__dpdk_a9634a897cf234f4255c27b62ae2ba673}} 
+pcap\+\_\+t $\ast$ {\bfseries orig}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_aed150e708ff07bf4eb40b5be2ee04a83}\label{structpcap__dpdk_aed150e708ff07bf4eb40b5be2ee04a83}} 
+uint16\+\_\+t {\bfseries portid}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_aa9a84edfc75cb6cc2499d1a3cadd900a}\label{structpcap__dpdk_aa9a84edfc75cb6cc2499d1a3cadd900a}} 
+int {\bfseries must\+\_\+clear\+\_\+promisc}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_af5e0a89ab5d6e3476d21fc4909200920}\label{structpcap__dpdk_af5e0a89ab5d6e3476d21fc4909200920}} 
+uint64\+\_\+t {\bfseries bpf\+\_\+drop}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a18ac02146ad328d592ce1fc27dc46e1e}\label{structpcap__dpdk_a18ac02146ad328d592ce1fc27dc46e1e}} 
+int {\bfseries nonblock}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_ac33ae84a773f1642fbc777a4678cfdd8}\label{structpcap__dpdk_ac33ae84a773f1642fbc777a4678cfdd8}} 
+struct timeval {\bfseries required\+\_\+select\+\_\+timeout}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a31e3c84c8b67caa64791efcd8f2d6de5}\label{structpcap__dpdk_a31e3c84c8b67caa64791efcd8f2d6de5}} 
+struct timeval {\bfseries prev\+\_\+ts}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a71fe66fa8560ce949fdfcb4e90693ab6}\label{structpcap__dpdk_a71fe66fa8560ce949fdfcb4e90693ab6}} 
+struct rte\+\_\+eth\+\_\+stats {\bfseries prev\+\_\+stats}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_ad4433ac0ef0a98b1132bb051bdf822a6}\label{structpcap__dpdk_ad4433ac0ef0a98b1132bb051bdf822a6}} 
+struct timeval {\bfseries curr\+\_\+ts}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a4b9268d264c6e4ce515b8c3871f47f98}\label{structpcap__dpdk_a4b9268d264c6e4ce515b8c3871f47f98}} 
+struct rte\+\_\+eth\+\_\+stats {\bfseries curr\+\_\+stats}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a59c562d7c1435e9ddced5bb41b1a16a9}\label{structpcap__dpdk_a59c562d7c1435e9ddced5bb41b1a16a9}} 
+uint64\+\_\+t {\bfseries pps}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a85f4dbf3d51179a2abdd69cc4bb7ef01}\label{structpcap__dpdk_a85f4dbf3d51179a2abdd69cc4bb7ef01}} 
+uint64\+\_\+t {\bfseries bps}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_aec54560cceba00987492f72e390684e2}\label{structpcap__dpdk_aec54560cceba00987492f72e390684e2}} 
+struct rte\+\_\+mempool $\ast$ {\bfseries pktmbuf\+\_\+pool}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a5550b2a202fac0928807554509f5ee88}\label{structpcap__dpdk_a5550b2a202fac0928807554509f5ee88}} 
+struct \mbox{\hyperlink{structdpdk__ts__helper}{dpdk\+\_\+ts\+\_\+helper}} {\bfseries ts\+\_\+helper}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a64bce1ee101a284bf20ebe3989a72628}\label{structpcap__dpdk_a64bce1ee101a284bf20ebe3989a72628}} 
+ETHER\+\_\+\+ADDR\+\_\+\+TYPE {\bfseries eth\+\_\+addr}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_aabd1b25f7f0e3ee39000e9e7a44c8f61}\label{structpcap__dpdk_aabd1b25f7f0e3ee39000e9e7a44c8f61}} 
+char {\bfseries mac\+\_\+addr} \mbox{[}DPDK\+\_\+\+MAC\+\_\+\+ADDR\+\_\+\+SIZE\mbox{]}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_af9053fe93a5131a2743a0e1f11e516f2}\label{structpcap__dpdk_af9053fe93a5131a2743a0e1f11e516f2}} 
+char {\bfseries pci\+\_\+addr} \mbox{[}DPDK\+\_\+\+PCI\+\_\+\+ADDR\+\_\+\+SIZE\mbox{]}
+\item 
+\mbox{\Hypertarget{structpcap__dpdk_a2640803c39f4b4eeed3683a6e890d3c3}\label{structpcap__dpdk_a2640803c39f4b4eeed3683a6e890d3c3}} 
+unsigned char {\bfseries pcap\+\_\+tmp\+\_\+buf} \mbox{[}RTE\+\_\+\+ETH\+\_\+\+PCAP\+\_\+\+SNAPLEN\mbox{]}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+pcap-\/dpdk.\+c\end{DoxyCompactItemize}
